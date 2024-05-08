@@ -1,0 +1,89 @@
+:root{
+    /* Colores del  */
+    --bg-color: #F6CD19;
+    --secondary-bg-color: #FDF6BA;
+
+    /* fonts */
+
+
+
+    /* Color de cada línea*/
+    --linea-a:#49b2de;
+    --linea-b:#e34a2d;
+    --linea-c:#106aad;
+    --linea-d:#007965;
+    --linea-e:#7b1e82;
+    --linea-h: #fdd500;
+    --premetro:#ffb414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -------------------------HEADER------------------------------------ */
+header{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper_line{
+    height: 20%;
+
+    margin-top: 3vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right_upper_line{
+    margin-left: 15px;
+}
+
+.logo_img{
+    height: 156px;
+    width: 150px;
+}
+
+
+.logo_ciudad{
+    height: 39px;
+    width: 100px;
+}
+
+.logo_secretaria{
+    height: 46px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+/* -------------------------HEADER------------------------------------ */
+
+
+
+body{
+    background-color: var(--bg-color);
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
